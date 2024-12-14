@@ -10,8 +10,8 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .header_info_left {
-   
   padding-top: 10px;
   display: flex;
   align-items: center;
@@ -84,5 +84,33 @@
         background-color: rgba(255, 255, 255, 0.1);
       }
     }
+  }
+}
+.mobile-navbar {
+  display: none;
+  justify-content: space-between;
+  padding: 30px 50px;
+  align-items: center;
+  .bar-icon {
+    border: 1px solid white;
+    padding:5px 10px;
+    .fa-bars {
+      color: #fff;
+      font-size: 20px;
+    }
+  }
+}
+@media (max-width: 1000px) {
+  .header_info_left,
+  .header_info_right {
+    font-size: 13px;
+  }
+}
+@media (max-width: 768px) {
+  .desktop-navbar {
+    display: none;
+  }
+  .mobile-navbar{
+    display: flex;
   }
 }
