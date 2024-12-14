@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.first-page {
+  height: 100vh;
+  background-image: url("./images/hero-1.jpg.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.header_info_left {
+   
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    padding-left: 0;
+    :nth-child(1) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      color: #fff;
+      .phone {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+    }
+    :nth-child(2) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      color: #fff;
+      .email {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+    }
+  }
+}
+.header_info_right {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    :nth-child(1) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      color: #fff;
+      .comment {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+    }
+    :nth-child(2) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      color: #fff;
+      .user {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+    }
+  }
+}
